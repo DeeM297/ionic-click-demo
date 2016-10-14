@@ -1,0 +1,45 @@
+page-home {
+    ion-item ion-label {
+        margin-bottom: 0px;
+    }
+    
+    .profilePicCityName {
+        position: static; 
+    }
+    
+    .profilePicAvatar {
+        position: absolute;
+        bottom: 17%;
+        right: 7%;
+        z-index: 2;
+    }
+    
+    .profilePic {
+        width: 70px !important; 
+        height : 70px !important; 
+        max-width: 70px !important; 
+        max-height: 70px !important;
+        border-radius: 35px;
+        border: 3.5px solid #fff;
+    }
+    
+    .favImgDiv {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .favDiv {
+        position: absolute;
+        top: 10%;
+        right: 6%;
+        font-size: 1.6em;
+    }
+    
+    .favDivInactiveHeart {
+        font-weight: bold;
+    }
+    
+    .imgDiv {
+        width: 100%;
+    }
+}
